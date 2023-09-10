@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --bgcolor: #0c0032;
+  --divcolor: #190061;
+  --divhover: #240090;
+  --textcolor: #fff;
+  --footer: #282828;
+  --transition:.5s;
+}
+.letter{
+  color:var(--textcolor);
+}
+h1 {
+  font-size: 35px;
+  /* text-transform: uppercase; */
+  font-weight: 900;
+  color: var(--textcolor);
+}
+h2 {
+  font-weight: 700;
+  color: var(--textcolor);
+  
+}
+h3 {
+  font-weight: 500;
+  color: var(--textcolor);
+}
+h5 {
+  color: var(--textcolor);
+}
+h4 {
+  color: var(--textcolor);
+}
+i {
+  color: var(--textcolor);
+}
+.contact_option-icon {
+  color: var(--textcolor);
+}
+.about_icon{
+  color:var(--textcolor);
+}
+small{
+  color:var(--textcolor);
+}
+html {
+  scroll-behavior: smooth;
+  /* cursor:url("./assest/hand.jpg") , pointer; */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #abbaab;
+  background-color: var(--bgcolor);
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: var(--textcolor);
+}
+p {
+  font-weight: 400;
+  color: var(--textcolor);
+}
+
